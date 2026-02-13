@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Buku Kosakata Digital Mandarin-Indonesia QC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>📘 Buku Kosakata Digital Mandarin-Indonesia Quality Control Injeksi</h1>
+  <p>PT Donlim Technology Indonesia</p>
+  <p class="author">Penulis: Yeshinta Happy Cantika Surya</p>
+</header>
+
+<nav class="nav">
+  <button onclick="showSection('cover')">Beranda</button>
+  <button onclick="showSection('kamus')"> Kosakata</button>
+  <button onclick="showSection('quiz')">Quiz</button>
+</nav>
+<section id="home" class="section home active">
+
+  <div class="home-bg">
+    <div class="bg-shape-top-orange"></div>
+    <div class="bg-shape-top-blue"></div>
+
+    <div class="bg-shape-bottom-orange"></div>
+    <div class="bg-shape-bottom-blue"></div>
+  </div>
+
+  <div class="content">
+    </section>
+
+<!-- ===== KAMUS ===== -->
+<section id="kamus" class="section">
+  <input type="text" id="search" placeholder="Cari Indonesia / Mandarin / Pinyin..." />
+
+  <div class="tabs">
+    <button onclick="setCategory('all')">Semua</button>
+    <button onclick="setCategory('umum')">Kosakata Umum</button>
+    <button onclick="setCategory('cacat')">Kosakata Cacat Produk</button>
+    <button onclick="setCategory('alat')">Kosakata Peralatan Perbaikan</button>
+  </div>
+
+  <div id="vocab-list" class="list"></div>
+</section>
+
+<!-- ===== QUIZ ===== -->
+<section id="quiz" class="section">
+  <h2>🧠 Mode Kuis Kosakata</h2>
+
+  <p id="quiz-score">Skor: 0</p>
+  <p id="quiz-level">Level: 1</p>
+
+  <p id="quiz-question"></p>
+
+  <button onclick="showAnswer()">👁 Lihat Jawaban</button>
+  <button onclick="correctAnswer()">✅ Benar</button>
+  <button onclick="nextQuiz()">➡️ Soal Berikutnya</button>
+
+  <p id="quiz-answer" class="answer"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
