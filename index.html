@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -106,3 +107,113 @@
 <script src="script.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Buku Kosakata Digital Mandarin-Indonesia QC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="floating-logos home-only">
+  <a href="https://vokasi.uns.ac.id" target="_blank">
+    <img src="LOGO BARU SEKOLAH VOKASI.png" alt="Logo UNS">
+  </a>
+
+  <a href="https://uns.ac.id" target="_blank">
+    <img src="1000014489.png" alt="Logo 2">
+  </a>
+</div>
+<a href="https://www.donlim.com" target="_blank" class="logo-top-left home-only">
+  <img src="1000009464.png" alt="Logo Donlim">
+</a>
+<header class="header">
+  <div class="header-text">
+    <h1>Buku Kosakata Digital</h1>
+    <h2>Mandarin – Indonesia</h2>
+    <p>Quality Control Injeksi</p>
+    <p class="author">PT Donlim Technology Indonesia</p>
+    <p class="author">Penulis: Yeshinta Happy Cantika Surya 叶昕悦</p>
+  </div>
+</header>
+
+<nav class="nav">
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links" id="navLinks">
+      <button onclick="showSection('home')">Beranda</button>
+      <button onclick="showSection('kamus')">Kosakata</button>
+      <button onclick="showSection('quiz')">Quiz</button>
+  </div>
+</nav>
+
+<section id="home" class="section">
+
+  <div class="bg-top home-only"></div>
+  <div class="bg-bottom home-only"></div>
+</section>
+<!-- ===== KAMUS ===== -->
+ <section id="kamus" class="section">
+
+  <div class="kamus-top">
+    <input type="text" id="search"
+      placeholder="Cari Indonesia / Mandarin / Pinyin..." />
+
+    <div class="tabs">
+      <button class="tab-btn active"
+        onclick="setCategory('all', this)">Semua</button>
+
+      <button class="tab-btn"
+        onclick="setCategory('umum', this)">Kosakata Umum</button>
+
+      <button class="tab-btn"
+        onclick="setCategory('cacat produk', this)">Kosakata Cacat Produk</button>
+
+      <button class="tab-btn"
+        onclick="setCategory('peralatan perbaikan', this)">Kosakata Peralatan Perbaikan</button>
+    </div>
+  </div>
+
+  <div id="vocab-list" class="list"></div>
+
+</section>
+
+
+<!-- ===== QUIZ ===== -->
+<section id="quiz" class="section">
+  <div class="quiz-container">
+    
+    <div class="quiz-card">
+
+      <div class="quiz-header">
+        <span id="quiz-level">Level: 1</span>
+        <span id="quiz-score">Skor: 0</span>
+      </div>
+
+      <h2 id="quiz-question">Pertanyaan muncul di sini</h2>
+
+      <p id="quiz-answer" class="quiz-answer"></p>
+
+      <div class="quiz-buttons">
+        <button onclick="showAnswer()" class="btn-outline">Lihat Jawaban</button>
+        <button onclick="correctAnswer()" class="btn-primary">Benar</button>
+        <button onclick="nextQuiz()" class="btn-secondary">Lewati</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+>>>>>>> f4db94614975278a152df455dcae49515d9171fd
