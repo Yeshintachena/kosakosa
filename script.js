@@ -1,4 +1,3 @@
-
 //full vocab data kosakata umum//
 const vocabulary = [
   {
