@@ -2327,863 +2327,104 @@ const vocabulary = [
   level: 2
 },
 ///kosakata cacat poduk///
-{
-  indonesia: "Ada pola seperti gelombang serat",
-  mandarin: "波纤",
-  pinyin: "bō xiān",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/bo-xian.mp3",
-  level: 4
-},
-{
-  indonesia: "Alur aliran (flow mark)",
-  mandarin: "气纹",
-  pinyin: "qì wén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/qi-wen.mp3",
-  level: 4
-},
-{
-  indonesia: "Bagian kecil sambungan tidak rapat",
-  mandarin: "装不紧",
-  pinyin: "zhuāng bù jǐn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/zhuang-bu-jin.mp3",
-  level: 3
-},
-{
-  indonesia: "Bekas goresan/garis gesekan",
-  mandarin: "擦痕",
-  pinyin: "cā hén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ca-hen.mp3",
-  level: 3
-},
-{
-  indonesia: "Bekas minyak/noda minyak",
-  mandarin: "油印",
-  pinyin: "yóu yìn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/you-yin.mp3",
-  level: 3
-},
-{
-  indonesia: "Bekas/jejak",
-  mandarin: "痕迹",
-  pinyin: "hén jì",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/hen-ji.mp3",
-  level: 2
-},
-{
-  indonesia: "Berkarat (baja/besi)",
-  mandarin: "生锈",
-  pinyin: "shēng xiù",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/sheng-xiu.mp3",
-  level: 2
-},
-{
-  indonesia: "Berubah bentuk",
-  mandarin: "变形",
-  pinyin: "biàn xíng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/bian-xing.mp3",
-  level: 3
-},
-{
-  indonesia: "Bintik hitam",
-  mandarin: "黑点",
-  pinyin: "hēi diǎn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/hei-dian.mp3",
-  level: 2
-},
-{
-  indonesia: "Bintik kecil",
-  mandarin: "小点",
-  pinyin: "xiǎo diǎn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/xiao-dian.mp3",
-  level: 1
-},
-{
-  indonesia: "Bintik kecil-kecil",
-  mandarin: "麻点",
-  pinyin: "má diǎn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ma-dian.mp3",
-  level: 3
-},
-{
-  indonesia: "Bintik putih",
-  mandarin: "白点",
-  pinyin: "bái diǎn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/bai-dian.mp3",
-  level: 2
-},
-{
-  indonesia: "Bocor air",
-  mandarin: "漏水",
-  pinyin: "lòu shuǐ",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/lou-shui.mp3",
-  level: 2
-},
-{
-  indonesia: "Celah",
-  mandarin: "离缝",
-  pinyin: "lí fèng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/li-feng.mp3",
-  level: 4
-},
-{
-  indonesia: "Ejector miring",
-  mandarin: "斜顶",
-  pinyin: "xié dǐng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/xie-ding.mp3",
-  level: 5
-},
-{
-  indonesia: "Garis perak",
-  mandarin: "银纹",
-  pinyin: "yín wén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/yin-wen.mp3",
-  level: 4
-},
-{
-  indonesia: "Garis potong",
-  mandarin: "割线",
-  pinyin: "gē xiàn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ge-xian.mp3",
-  level: 3
-},
-{
-  indonesia: "Gelembung",
-  mandarin: "气泡",
-  pinyin: "qì pào",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/qi-pao.mp3",
-  level: 2
-},
-{
-  indonesia: "Gelombang permukaan",
-  mandarin: "波纹",
-  pinyin: "bō wén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/bo-wen.mp3",
-  level: 3
-},
-{
-  indonesia: "Goresan (berbentuk garis)",
-  mandarin: "划痕",
-  pinyin: "huá hén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/hua-hen.mp3",
-  level: 2
-},
-{
-  indonesia: "Goresan saat dikeluarkan dari molding",
-  mandarin: "拉伤",
-  pinyin: "lā shāng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/la-shang.mp3",
-  level: 4
-},
-{
-  indonesia: "Hang (macet)",
-  mandarin: "死机",
-  pinyin: "sǐ jī",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/si-ji.mp3",
-  level: 3
-},
-{
-  indonesia: "Jejak/bekas lem",
-  mandarin: "胶痕",
-  pinyin: "jiāo hén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/jiao-hen.mp3",
-  level: 2
-},
-{
-  indonesia: "Kekurangan material",
-  mandarin: "少料",
-  pinyin: "shǎo liào",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/shao-liao.mp3",
-  level: 2
-},
-{
-  indonesia: "Kekurangan material (area kekurangan resin)",
-  mandarin: "缺胶",
-  pinyin: "quē jiāo",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/que-jiao.mp3",
-  level: 3
-},
-{
-  indonesia: "Kelebihan material",
-  mandarin: "多料",
-  pinyin: "duō liào",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/duo-liao.mp3",
-  level: 2
-},
-{
-  indonesia: "Kemiringan",
-  mandarin: "斜度",
-  pinyin: "xié dù",
-  category: "cacat produk",
-  direction: "id-cn", 
-  audio: "audio/xie-du.mp3",
-  level: 3
-},
-{
-  indonesia: "Kerusakan akibat tekanan",
-  mandarin: "压伤",
-  pinyin: "yā shāng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ya-shang.mp3",
-  level: 3
-},
-{
-  indonesia: "Kilau",
-  mandarin: "发亮",
-  pinyin: "fā liàng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/fa-liang.mp3",
-  level: 2
-},
-{
-  indonesia: "Korosi (karatan)",
-  mandarin: "腐蚀",
-  pinyin: "fǔ shí",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/fu-shi.mp3",
-  level: 3
-},
-{
-  indonesia: "Kotor",
-  mandarin: "脏污",
-  pinyin: "zàng wū",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/zang-wu.mp3",
-  level: 1
-},
-{
-  indonesia: "Lapisan plating mengelupas",
-  mandarin: "镀层脱落",
-  pinyin: "dù céng tuō luò",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/du-ceng-tuo-luo.mp3",
-  level: 4
-},
-{
-  indonesia: "Lubang kecil",
-  mandarin: "小孔",
-  pinyin: "xiǎo kǒng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/xiao-kong.mp3",
-  level: 2
-},
-{
-  indonesia: "Macet (tidak bisa dipasang)",
-  mandarin: "卡住",
-  pinyin: "kǎ zhù",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ka-zhu.mp3",
-  level: 2
-},
-{
-  indonesia: "Macet (tidak bisa terkunci)",
-  mandarin: "卡不住",
-  pinyin: "kǎ bù zhù",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ka-bu-zhu.mp3",
-  level: 3
-},
-{
-  indonesia: "Macet/stuck",
-  mandarin: "卡死",
-  pinyin: "kǎ sǐ",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ka-si.mp3",
-  level: 3
-},
-{
-  indonesia: "Menyusut",
-  mandarin: "缩水",
-  pinyin: "suō shuǐ",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/suo-shui.mp3",
-  level: 3
-},
-{
-  indonesia: "Motor tidak berputar",
-  mandarin: "电机不转",
-  pinyin: "diàn jī bù zhuǎn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/dian-ji-bu-zhuan.mp3",
-  level: 4
-},
-{
-  indonesia: "Noda",
-  mandarin: "污迹",
-  pinyin: "wū jì",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/wu-ji.mp3",
-  level: 1
-},
-{
-  indonesia: "Patah/putus",
-  mandarin: "断裂",
-  pinyin: "duàn liè",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/duan-lie.mp3",
-  level: 2
-},
-{
-  indonesia: "Pecah",
-  mandarin: "破损",
-  pinyin: "pò sǔn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/po-sun.mp3",
-  level: 2
-},
-{
-  indonesia: "Penutup tidak rapat",
-  mandarin: "盖不装",
-  pinyin: "gài bù zhuāng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/gai-bu-zhuang.mp3",
-  level: 3
-},
-{
-  indonesia: "Penyok ke dalam",
-  mandarin: "凹进去",
-  pinyin: "āo jìn qù",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ao-jin-qu.mp3", 
-  level: 2
-},
-{
-  indonesia: "Permukaan berkilau",
-  mandarin: "光亮",
-  pinyin: "guāng liàng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/guang-liang.mp3",
-  level: 2
-},
-{
-  indonesia: "Permukaan kasar",
-  mandarin: "表面粗糙",
-  pinyin: "biǎo miàn cū cāo",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/biao-mian-cu-cao.mp3",
-  level: 3
-},
-{
-  indonesia: "Pisau patah",
-  mandarin: "断刀",
-  pinyin: "duàn dāo",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/duan-dao.mp3",
-  level: 4
-},
-{
-  indonesia: "Pola cahaya/garis cahaya",
-  mandarin: "晒纹",
-  pinyin: "shài wén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/shai-wen.mp3",
-  level: 4
-},
-{
-  indonesia: "Pola matte/kusam",
-  mandarin: "晒哑纹",
-  pinyin: "shài yǎ wén",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/shai-ya-wen.mp3",
-  level: 4
-},
-{
-  indonesia: "Produk langsung tembus listrik",
-  mandarin: "产品直通",
-  pinyin: "chǎn pǐn zhí tōng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/chan-pin-zhi-tong.mp3",
-  level: 5
-},
-{
-  indonesia: "Produk tidak keluar sempurna",
-  mandarin: "缺料",
-  pinyin: "quē liào",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/que-liao.mp3",  
-  level: 3
-},
-{
-  indonesia: "Retak",
-  mandarin: "裂/裂纹",
-  pinyin: "liè / liè wén",  
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/lie-lie-wen.mp3",
-  level: 2
-},
-{
-  indonesia: "Retak akibat tarikan",
-  mandarin: "拉裂",
-  pinyin: "lā liè",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/la-lie.mp3",
-  level: 4
-},
-{
-  indonesia: "Retakan",
-  mandarin: "开裂",
-  pinyin: "kāi liè",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/kai-lie.mp3",
-  level: 3
-},
-{
-  indonesia: "Sambungan longgar",
-  mandarin: "松/松动",
-  pinyin: "sōng / sōng dòng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/song-song-dong.mp3",
-  level: 2
-},
-{
-  indonesia: "Sisa tipis di tepi produk",
-  mandarin: "披锋/披风",
-  pinyin: "pī fēng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/pi-feng.mp3",
-  level: 4
-},
-{
-  indonesia: "Stiker mengelupas",
-  mandarin: "贴纸起翘",
-  pinyin: "tiē zhǐ qǐ qiào",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/tie-zhi-qi-qiao.mp3",
-  level: 3
-},
-{
-  indonesia: "Tebal",
-  mandarin: "厚",
-  pinyin: "hòu",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/hou.mp3",
-  level: 1
-},
-{
-  indonesia: "Tepi tidak rata",
-  mandarin: "起级",
-  pinyin: "qǐ jí",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/qi-ji.mp3",
-  level: 4
-},
-{
-  indonesia: "Terbakar",
-  mandarin: "烧焦",
-  pinyin: "shāo jiāo",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/shao-jiao.mp3",
-  level: 4
-},
-{
-  indonesia: "Tergores (lebih dalam/kasar)",
-  mandarin: "刮花",
-  pinyin: "guā huā",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/gua-hua.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak ada lubang",
-  mandarin: "没孔",
-  pinyin: "méi kǒng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/mei-kong.mp3",
-  level: 2
-},
-{
-  indonesia: "Tidak bisa dipasang",
-  mandarin: "装不上",
-  pinyin: "zhuāng bù shàng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/zhuang-bu-shang.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa ditarik",
-  mandarin: "拉不开",
-  pinyin: "lā bù kāi",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/la-bu-kai.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa ditutup",
-  mandarin: "关不上",
-  pinyin: "guān bù shàng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/guan-bu-shang.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa dicabut",
-  mandarin: "拔不出",
-  pinyin: "bá bù chū",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/ba-bu-chu.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa didorong",
-  mandarin: "推不动",
-  pinyin: "tuī bù dòng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/tui-bu-dong.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa dikaitkan",
-  mandarin: "扣不上",
-  pinyin: "kòu bù shàng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/kou-bu-shang.mp3",
-  level: 4
-},
-{
-  indonesia: "Tidak bisa diputar",
-  mandarin: "转不动",
-  pinyin: "zhuǎn bù dòng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/zhuan-bu-dong.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa diputar (tersangkut)",
-  mandarin: "旋不动",
-  pinyin: "xuán bù dòng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/xuan-bu-dong.mp3",
-  level: 4
-},
-{
-  indonesia: "Tidak bisa ditekan",
-  mandarin: "按不动",
-  pinyin: "àn bù dòng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/an-bu-dong.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak bisa ditutup rapat",
-  mandarin: "合不紧",
-  pinyin: "hé bù jǐn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/he-bu-jin.mp3",
-  level: 4
-},
-{
-  indonesia: "Tidak memiliki kilau/kusam",
-  mandarin: "无光泽",
-  pinyin: "wú guāng zé",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/wu-guang-ze.mp3",
-  level: 3
-},
-{
-  indonesia: "Tidak rata",
-  mandarin: "不平",
-  pinyin: "bù píng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/bu-ping.mp3",
-  level: 2
-},
-{
-  indonesia: "Tipis",
-  mandarin: "薄",
-  pinyin: "báo",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/bao.mp3",
-  level: 1
-},
-{
-  indonesia: "Transparan",
-  mandarin: "透明",
-  pinyin: "tòu míng",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/tou-ming.mp3",
-  level: 2
-},
-{
-  indonesia: "Ukuran (kecil/besar)",
-  mandarin: "尺寸/大小（小/大）",
-  pinyin: "chǐ cùn / dà xiǎo (xiǎo / dà)",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/chǐ-cùn-dà-xiǎo.mp3",
-  level: 3
-},
-{
-  indonesia: "Warna berbeda",
-  mandarin: "颜色差",
-  pinyin: "yán sè chà",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/yan-se-cha.mp3",
-  level: 3
-},
-{
-  indonesia: "Warna cerah",
-  mandarin: "鲜色",
-  pinyin: "xiān sè",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/xian-se.mp3",
-  level: 2
-},
-{
-  indonesia: "Warna tidak konsisten",
-  mandarin: "颜色不一致",
-  pinyin: "yán sè bù yī zhì",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/yan-se-bu-yi-zhi.mp3",
-  level: 4
-},
-{
-  indonesia: "Warna tidak merata",
-  mandarin: "杂色/颜色不均",
-  pinyin: "zá sè / yán sè bù jūn",
-  category: "cacat produk",
-  direction: "id-cn",
-  audio: "audio/yan-se-bu-jun.mp3",
-  level: 4
-},
+{indonesia:"Ada pola seperti gelombang serat",mandarin:"波纤",pinyin:"bō xiān",category:"cacat produk",direction:"id-cn",audio:"audio/bo-xian.mp3",level:4},
+{indonesia:"Alur aliran (flow mark)",mandarin:"气纹",pinyin:"qì wén",category:"cacat produk",direction:"id-cn",audio:"audio/qi-wen.mp3",level:4},
+{indonesia:"Bagian kecil sambungan tidak rapat",mandarin:"装不紧",pinyin:"zhuāng bù jǐn",category:"cacat produk",direction:"id-cn",audio:"audio/zhuang-bu-jin.mp3",level:3},
+{indonesia:"Bekas goresan/garis gesekan",mandarin:"擦痕",pinyin:"cā hén",category:"cacat produk",direction:"id-cn",audio:"audio/ca-hen.mp3",level:3},
+{indonesia:"Bekas minyak/noda minyak",mandarin:"油印",pinyin:"yóu yìn",category:"cacat produk",direction:"id-cn",audio:"audio/you-yin.mp3",level:3},
+{indonesia:"Bekas/jejak",mandarin:"痕迹",pinyin:"hén jì",category:"cacat produk",direction:"id-cn",audio:"audio/hen-ji.mp3",level:2},
+{indonesia:"Berkarat (baja/besi)",mandarin:"生锈",pinyin:"shēng xiù",category:"cacat produk",direction:"id-cn",audio:"audio/sheng-xiu.mp3",level:2},
+{indonesia:"Berubah bentuk",mandarin:"变形",pinyin:"biàn xíng",category:"cacat produk",direction:"id-cn",audio:"audio/bian-xing.mp3",level:3},
+{indonesia:"Bintik hitam",mandarin:"黑点",pinyin:"hēi diǎn",category:"cacat produk",direction:"id-cn",audio:"audio/hei-dian.mp3",level:2},
+{indonesia:"Bintik kecil",mandarin:"小点",pinyin:"xiǎo diǎn",category:"cacat produk",direction:"id-cn",audio:"audio/xiao-dian.mp3",level:1},
+{indonesia:"Bintik kecil-kecil",mandarin:"麻点",pinyin:"má diǎn",category:"cacat produk",direction:"id-cn",audio:"audio/ma-dian.mp3",level:3},
+{indonesia:"Bintik putih",mandarin:"白点",pinyin:"bái diǎn",category:"cacat produk",direction:"id-cn",audio:"audio/bai-dian.mp3",level:2},
+{indonesia:"Bocor air",mandarin:"漏水",pinyin:"lòu shuǐ",category:"cacat produk",direction:"id-cn",audio:"audio/lou-shui.mp3",level:2},
+{indonesia:"Celah",mandarin:"离缝",pinyin:"lí fèng",category:"cacat produk",direction:"id-cn",audio:"audio/li-feng.mp3",level:4},
+{indonesia:"Ejector miring",mandarin:"斜顶",pinyin:"xié dǐng",category:"cacat produk",direction:"id-cn",audio:"audio/xie-ding.mp3",level:5},
+{indonesia:"Garis perak",mandarin:"银纹",pinyin:"yín wén",category:"cacat produk",direction:"id-cn",audio:"audio/yin-wen.mp3",level:4},
+{indonesia:"Garis potong",mandarin:"割线",pinyin:"gē xiàn",category:"cacat produk",direction:"id-cn",audio:"audio/ge-xian.mp3",level:3},
+{indonesia:"Gelembung",mandarin:"气泡",pinyin:"qì pào",category:"cacat produk",direction:"id-cn",audio:"audio/qi-pao.mp3",level:2},
+{indonesia:"Gelombang permukaan",mandarin:"波纹",pinyin:"bō wén",category:"cacat produk",direction:"id-cn",audio:"audio/bo-wen.mp3",level:3},
+{indonesia:"Goresan (berbentuk garis)",mandarin:"划痕",pinyin:"huá hén",category:"cacat produk",direction:"id-cn",audio:"audio/hua-hen.mp3",level:2},
+{indonesia:"Goresan saat dikeluarkan dari molding",mandarin:"拉伤",pinyin:"lā shāng",category:"cacat produk",direction:"id-cn",audio:"audio/la-shang.mp3",level:4},
+{indonesia:"Hang (macet)",mandarin:"死机",pinyin:"sǐ jī",category:"cacat produk",direction:"id-cn",audio:"audio/si-ji.mp3",level:3},
+{indonesia:"Jejak/bekas lem",mandarin:"胶痕",pinyin:"jiāo hén",category:"cacat produk",direction:"id-cn",audio:"audio/jiao-hen.mp3",level:2},
+{indonesia:"Kekurangan material",mandarin:"少料",pinyin:"shǎo liào",category:"cacat produk",direction:"id-cn",audio:"audio/shao-liao.mp3",level:2},
+{indonesia:"Kekurangan material (area kekurangan resin)",mandarin:"缺胶",pinyin:"quē jiāo",category:"cacat produk",direction:"id-cn",audio:"audio/que-jiao.mp3",level:3},
+{indonesia:"Kelebihan material",mandarin:"多料",pinyin:"duō liào",category:"cacat produk",direction:"id-cn",audio:"audio/duo-liao.mp3",level:2},
+{indonesia:"Kemiringan",mandarin:"斜度",pinyin:"xié dù",category:"cacat produk",direction:"id-cn",audio:"audio/xie-du.mp3",level:3},
+{indonesia:"Kerusakan akibat tekanan",mandarin:"压伤",pinyin:"yā shāng",category:"cacat produk",direction:"id-cn",audio:"audio/ya-shang.mp3",level:3},
+{indonesia:"Kilau",mandarin:"发亮",pinyin:"fā liàng",category:"cacat produk",direction:"id-cn",audio:"audio/fa-liang.mp3",level:2},
+{indonesia:"Korosi (karatan)",mandarin:"腐蚀",pinyin:"fǔ shí",category:"cacat produk",direction:"id-cn",audio:"audio/fu-shi.mp3",level:3},
+{indonesia:"Kotor",mandarin:"脏污",pinyin:"zàng wū",category:"cacat produk",direction:"id-cn",audio:"audio/zang-wu.mp3",level:1},
+{indonesia:"Lapisan plating mengelupas",mandarin:"镀层脱落",pinyin:"dù céng tuō luò",category:"cacat produk",direction:"id-cn",audio:"audio/du-ceng-tuo-luo.mp3",level:4},
+{indonesia:"Lubang kecil",mandarin:"小孔",pinyin:"xiǎo kǒng",category:"cacat produk",direction:"id-cn",audio:"audio/xiao-kong.mp3",level:2},
+{indonesia:"Macet (tidak bisa dipasang)",mandarin:"卡住",pinyin:"kǎ zhù",category:"cacat produk",direction:"id-cn",audio:"audio/ka-zhu.mp3",level:2},
+{indonesia:"Macet (tidak bisa terkunci)",mandarin:"卡不住",pinyin:"kǎ bù zhù",category:"cacat produk",direction:"id-cn",audio:"audio/ka-bu-zhu.mp3",level:3},
+{indonesia:"Macet/stuck",mandarin:"卡死",pinyin:"kǎ sǐ",category:"cacat produk",direction:"id-cn",audio:"audio/ka-si.mp3",level:3},
+{indonesia:"Menyusut",mandarin:"缩水",pinyin:"suō shuǐ",category:"cacat produk",direction:"id-cn",audio:"audio/suo-shui.mp3",level:3},
+{indonesia:"Motor tidak berputar",mandarin:"电机不转",pinyin:"diàn jī bù zhuǎn",category:"cacat produk",direction:"id-cn",audio:"audio/dian-ji-bu-zhuan.mp3",level:4},
+{indonesia:"Noda",mandarin:"污迹",pinyin:"wū jì",category:"cacat produk",direction:"id-cn",audio:"audio/wu-ji.mp3",level:1},
+{indonesia:"Patah/putus",mandarin:"断裂",pinyin:"duàn liè",category:"cacat produk",direction:"id-cn",audio:"audio/duan-lie.mp3",level:2},
+{indonesia:"Pecah",mandarin:"破损",pinyin:"pò sǔn",category:"cacat produk",direction:"id-cn",audio:"audio/po-sun.mp3",level:2},
+{indonesia:"Penutup tidak rapat",mandarin:"盖不装",pinyin:"gài bù zhuāng",category:"cacat produk",direction:"id-cn",audio:"audio/gai-bu-zhuang.mp3",level:3},
+{indonesia:"Penyok ke dalam",mandarin:"凹进去",pinyin:"āo jìn qù",category:"cacat produk",direction:"id-cn",audio:"audio/ao-jin-qu.mp3",level:2},
+{indonesia:"Permukaan berkilau",mandarin:"光亮",pinyin:"guāng liàng",category:"cacat produk",direction:"id-cn",audio:"audio/guang-liang.mp3",level:2},
+{indonesia:"Permukaan kasar",mandarin:"表面粗糙",pinyin:"biǎo miàn cū cāo",category:"cacat produk",direction:"id-cn",audio:"audio/biao-mian-cu-cao.mp3",level:3},
+{indonesia:"Pisau patah",mandarin:"断刀",pinyin:"duàn dāo",category:"cacat produk",direction:"id-cn",audio:"audio/duan-dao.mp3",level:4},
+{indonesia:"Pola cahaya/garis cahaya",mandarin:"晒纹",pinyin:"shài wén",category:"cacat produk",direction:"id-cn",audio:"audio/shai-wen.mp3",level:4},
+{indonesia:"Pola matte/kusam",mandarin:"晒哑纹",pinyin:"shài yǎ wén",category:"cacat produk",direction:"id-cn",audio:"audio/shai-ya-wen.mp3",level:4},
+{indonesia:"Produk langsung tembus listrik",mandarin:"产品直通",pinyin:"chǎn pǐn zhí tōng",category:"cacat produk",direction:"id-cn",audio:"audio/chan-pin-zhi-tong.mp3",level:5},
+{indonesia:"Produk tidak keluar sempurna",mandarin:"缺料",pinyin:"quē liào",category:"cacat produk",direction:"id-cn",audio:"audio/que-liao.mp3",level:3},
+{indonesia:"Retak",mandarin:"裂/裂纹",pinyin:"liè / liè wén",category:"cacat produk",direction:"id-cn",audio:"audio/lie-lie-wen.mp3",level:2},
+{indonesia:"Retak akibat tarikan",mandarin:"拉裂",pinyin:"lā liè",category:"cacat produk",direction:"id-cn",audio:"audio/la-lie.mp3",level:4},
+{indonesia:"Retakan",mandarin:"开裂",pinyin:"kāi liè",category:"cacat produk",direction:"id-cn",audio:"audio/kai-lie.mp3",level:3},
+{indonesia:"Sambungan longgar",mandarin:"松/松动",pinyin:"sōng / sōng dòng",category:"cacat produk",direction:"id-cn",audio:"audio/song-song-dong.mp3",level:2},
+{indonesia:"Sisa tipis di tepi produk",mandarin:"披锋/披风",pinyin:"pī fēng",category:"cacat produk",direction:"id-cn",audio:"audio/pi-feng.mp3",level:4},
+{indonesia:"Stiker mengelupas",mandarin:"贴纸起翘",pinyin:"tiē zhǐ qǐ qiào",category:"cacat produk",direction:"id-cn",audio:"audio/tie-zhi-qi-qiao.mp3",level:3},
+{indonesia:"Tebal",mandarin:"厚",pinyin:"hòu",category:"cacat produk",direction:"id-cn",audio:"audio/hou.mp3",level:1},
+{indonesia:"Tepi tidak rata",mandarin:"起级",pinyin:"qǐ jí",category:"cacat produk",direction:"id-cn",audio:"audio/qi-ji.mp3",level:4},
+{indonesia:"Terbakar",mandarin:"烧焦",pinyin:"shāo jiāo",category:"cacat produk",direction:"id-cn",audio:"audio/shao-jiao.mp3",level:4},
+{indonesia:"Tergores (lebih dalam/kasar)",mandarin:"刮花",pinyin:"guā huā",category:"cacat produk",direction:"id-cn",audio:"audio/gua-hua.mp3",level:3},
+{indonesia:"Tidak ada lubang",mandarin:"没孔",pinyin:"méi kǒng",category:"cacat produk",direction:"id-cn",audio:"audio/mei-kong.mp3",level:2},
+{indonesia:"Tidak bisa dipasang",mandarin:"装不上",pinyin:"zhuāng bù shàng",category:"cacat produk",direction:"id-cn",audio:"audio/zhuang-bu-shang.mp3",level:3},
+{indonesia:"Tidak bisa ditarik",mandarin:"拉不开",pinyin:"lā bù kāi",category:"cacat produk",direction:"id-cn",audio:"audio/la-bu-kai.mp3",level:3},
+{indonesia:"Tidak bisa ditutup",mandarin:"关不上",pinyin:"guān bù shàng",category:"cacat produk",direction:"id-cn",audio:"audio/guan-bu-shang.mp3",level:3},
+{indonesia:"Tidak bisa dicabut",mandarin:"拔不出",pinyin:"bá bù chū",category:"cacat produk",direction:"id-cn",audio:"audio/ba-bu-chu.mp3",level:3},
+{indonesia:"Tidak bisa didorong",mandarin:"推不动",pinyin:"tuī bù dòng",category:"cacat produk",direction:"id-cn",audio:"audio/tui-bu-dong.mp3",level:3},
+{indonesia:"Tidak bisa dikaitkan",mandarin:"扣不上",pinyin:"kòu bù shàng",category:"cacat produk",direction:"id-cn",audio:"audio/kou-bu-shang.mp3",level:4},
+{indonesia:"Tidak bisa diputar",mandarin:"转不动",pinyin:"zhuǎn bù dòng",category:"cacat produk",direction:"id-cn",audio:"audio/zhuan-bu-dong.mp3",level:3},
+{indonesia:"Tidak bisa diputar (tersangkut)",mandarin:"旋不动",pinyin:"xuán bù dòng",category:"cacat produk",direction:"id-cn",audio:"audio/xuan-bu-dong.mp3",level:4},
+{indonesia:"Tidak bisa ditekan",mandarin:"按不动",pinyin:"àn bù dòng",category:"cacat produk",direction:"id-cn",audio:"audio/an-bu-dong.mp3",level:3},
+{indonesia:"Tidak bisa ditutup rapat",mandarin:"合不紧",pinyin:"hé bù jǐn",category:"cacat produk",direction:"id-cn",audio:"audio/he-bu-jin.mp3",level:4},
+{indonesia:"Tidak memiliki kilau/kusam",mandarin:"无光泽",pinyin:"wú guāng zé",category:"cacat produk",direction:"id-cn",audio:"audio/wu-guang-ze.mp3",level:3},
+{indonesia:"Tidak rata",mandarin:"不平",pinyin:"bù píng",category:"cacat produk",direction:"id-cn",audio:"audio/bu-ping.mp3",level:2},
+{indonesia:"Tipis",mandarin:"薄",pinyin:"báo",category:"cacat produk",direction:"id-cn",audio:"audio/bao.mp3",level:1},
+{indonesia:"Transparan",mandarin:"透明",pinyin:"tòu míng",category:"cacat produk",direction:"id-cn",audio:"audio/tou-ming.mp3",level:2},
+{indonesia:"Ukuran (kecil/besar)",mandarin:"尺寸/大小（小/大）",pinyin:"chǐ cùn / dà xiǎo (xiǎo / dà)",category:"cacat produk",direction:"id-cn",audio:"audio/chǐ-cùn-dà-xiǎo.mp3",level:3},
+{indonesia:"Warna berbeda",mandarin:"颜色差",pinyin:"yán sè chà",category:"cacat produk",direction:"id-cn",audio:"audio/yan-se-cha.mp3",level:3},
+{indonesia:"Warna cerah",mandarin:"鲜色",pinyin:"xiān sè",category:"cacat produk",direction:"id-cn",audio:"audio/xian-se.mp3",level:2},
+{indonesia:"Warna tidak konsisten",mandarin:"颜色不一致",pinyin:"yán sè bù yī zhì",category:"cacat produk",direction:"id-cn",audio:"audio/yan-se-bu-yi-zhi.mp3",level:4},
+{indonesia:"Warna tidak merata",mandarin:"杂色/颜色不均",pinyin:"zá sè / yán sè bù jūn",category:"cacat produk",direction:"id-cn",audio:"audio/yan-se-bu-jun.mp3",level:4},
 ///kosakata peralatan perbaikan//
-{
-  indonesia: "Ampelas",
-  mandarin: "砂纸",
-  pinyin: "shā zhǐ",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/sha-zhi.mp3",
-  level: 2
-},
-{
-  indonesia: "Bor tangan",
-  mandarin: "手钻",
-  pinyin: "shǒu zuàn",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/shou-zuan.mp3",
-  level: 3
-},
-{
-  indonesia: "Cutter",
-  mandarin: "刀/切刀",
-  pinyin: "dāo / qiē dāo",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/dao-qie-dao.mp3",
-  level: 1
-},
-{
-  indonesia: "Gunting",
-  mandarin: "剪刀",
-  pinyin: "jiǎn dāo",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/jian-dao.mp3",
-  level: 1
-},
-{
-  indonesia: "Kain lap",
-  mandarin: "抹布",
-  pinyin: "mā bù",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/ma-bu.mp3",
-  level: 1
-},
-{
-  indonesia: "Kain pembersih",
-  mandarin: "擦拭布",
-  pinyin: "cā shì bù",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/ca-shi-bu.mp3",
-  level: 2
-},
-{
-  indonesia: "Magic sponge",
-  mandarin: "魔力擦",
-  pinyin: "mó lì cā",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/mo-li-ca.mp3",
-  level: 3
-},
-{
-  indonesia: "Obeng",
-  mandarin: "螺丝刀",
-  pinyin: "luó sī dāo",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/luo-si-dao.mp3",
-  level: 2
-},
-{
-  indonesia: "Penggaris",
-  mandarin: "尺子",
-  pinyin: "chǐ zi",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/chi-zi.mp3",
-  level: 1
-},
-{
-  indonesia: "Pemantik api",
-  mandarin: "打火机",
-  pinyin: "dǎ huǒ jī",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/da-huo-ji.mp3",
-  level: 3
-},
-{
-  indonesia: "Spons",
-  mandarin: "海绵",
-  pinyin: "hǎi mián",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/hai-mian.mp3",
-  level: 2
-},
-{
-  indonesia: "Solder",
-  mandarin: "烙铁",
-  pinyin: "lào tiě",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/lao-tie.mp3",
-  level: 4
-},
-{
-  indonesia: "Tabung gas tipe kartu (bayonet)",
-  mandarin: "卡式气罐",
-  pinyin: "kǎ shì qì guàn",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/ka-shi-qi-guan.mp3",
-  level: 4
-},
-{
-  indonesia: "Tang",
-  mandarin: "钳子",
-  pinyin: "qián zi",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/qian-zi.mp3",
-  level: 2
-},
-{
-  indonesia: "Tinta hitam",
-  mandarin: "黑水",
-  pinyin: "hēi shuǐ",
-  category: "peralatan perbaikan",
-  direction: "id-cn",
-  audio: "audio/hei-shui.mp3",
-  level: 2
-},
+{indonesia:"Ampelas",mandarin:"砂纸",pinyin:"shā zhǐ",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/sha-zhi.mp3",level:2},
+{indonesia:"Bor tangan",mandarin:"手钻",pinyin:"shǒu zuàn",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/shou-zuan.mp3",level:3},
+{indonesia:"Cutter",mandarin:"刀/切刀",pinyin:"dāo / qiē dāo",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/dao-qie-dao.mp3",level:1},
+{indonesia:"Gunting",mandarin:"剪刀",pinyin:"jiǎn dāo",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/jian-dao.mp3",level:1},
+{indonesia:"Kain lap",mandarin:"抹布",pinyin:"mā bù",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/ma-bu.mp3",level:1},
+{indonesia:"Kain pembersih",mandarin:"擦拭布",pinyin:"cā shì bù",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/ca-shi-bu.mp3",level:2},
+{indonesia:"Magic sponge",mandarin:"魔力擦",pinyin:"mó lì cā",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/mo-li-ca.mp3",level:3},
+{indonesia:"Obeng",mandarin:"螺丝刀",pinyin:"luó sī dāo",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/luo-si-dao.mp3",level:2},
+{indonesia:"Penggaris",mandarin:"尺子",pinyin:"chǐ zi",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/chi-zi.mp3",level:1},
+{indonesia:"Pemantik api",mandarin:"打火机",pinyin:"dǎ huǒ jī",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/da-huo-ji.mp3",level:3},
+{indonesia:"Spons",mandarin:"海绵",pinyin:"hǎi mián",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/hai-mian.mp3",level:2},
+{indonesia:"Solder",mandarin:"烙铁",pinyin:"lào tiě",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/lao-tie.mp3",level:4},
+{indonesia:"Tabung gas tipe kartu (bayonet)",mandarin:"卡式气罐",pinyin:"kǎ shì qì guàn",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/ka-shi-qi-guan.mp3",level:4},
+{indonesia:"Tang",mandarin:"钳子",pinyin:"qián zi",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/qian-zi.mp3",level:2},
+{indonesia:"Tinta hitam",mandarin:"黑水",pinyin:"hēi shuǐ",category:"peralatan perbaikan",direction:"id-cn",audio:"audio/hei-shui.mp3",level:2},
 ];
+
 // ===============================
 // GLOBAL STATE
 // ===============================
@@ -3214,7 +2455,7 @@ function debounce(func, wait) {
 }
 
 // ===============================
-// NAVIGATION
+// NAVIGATION (tanpa hamburger)
 // ===============================
 function showSection(id) {
   document.querySelectorAll(".section").forEach(sec => sec.style.display = "none");
@@ -3225,47 +2466,9 @@ function showSection(id) {
     el.style.display = id === "home" ? "" : "none";
   });
 
-  if (window.innerWidth <= 768) {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navLinks = document.getElementById('navLinks');
-    if (menuToggle && navLinks) {
-      menuToggle.classList.remove('active');
-      navLinks.classList.remove('active');
-    }
-  }
-
   if (id === "kamus") setTimeout(() => renderList(), 50);
   if (id === "quiz") renderQuiz();
 }
-
-function toggleMenu(el) {
-  if (!el) return;
-  el.classList.toggle("active");
-  const navLinks = document.getElementById("navLinks");
-  if (navLinks) navLinks.classList.toggle("active");
-}
-
-document.addEventListener('click', function(event) {
-  const menuToggle = document.querySelector('.menu-toggle');
-  const navLinks = document.getElementById('navLinks');
-  if (window.innerWidth <= 768 && menuToggle && navLinks) {
-    if (!menuToggle.contains(event.target) && !navLinks.contains(event.target)) {
-      menuToggle.classList.remove('active');
-      navLinks.classList.remove('active');
-    }
-  }
-});
-
-window.addEventListener('resize', function() {
-  if (window.innerWidth > 768) {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navLinks = document.getElementById('navLinks');
-    if (menuToggle && navLinks) {
-      menuToggle.classList.remove('active');
-      navLinks.classList.remove('active');
-    }
-  }
-});
 
 function playAudio(src) {
   const audio = new Audio(src);
@@ -3366,7 +2569,7 @@ function renderList() {
 }
 
 // ===============================
-// QUIZ (dengan tombol Lihat Jawaban & Lewati)
+// QUIZ
 // ===============================
 function initQuiz() {
   currentQuestions = [...vocabulary];
@@ -3418,7 +2621,6 @@ function renderQuiz() {
   const current = currentQuestions[currentIndex];
   question.textContent = current.mandarin;
 
-  // Hapus pinyin lama, tambah baru
   const oldPinyin = document.querySelector(".quiz-pinyin");
   if (oldPinyin) oldPinyin.remove();
   const pinyinHint = document.createElement("div");
@@ -3442,14 +2644,10 @@ function checkAnswer(selected, correct) {
   if (quizLocked) return;
   const options = document.querySelectorAll(".quiz-option");
   quizLocked = true;
-
   options.forEach(opt => opt.classList.add("disabled"));
-
-  // Tandai jawaban benar
   options.forEach(opt => {
     if (opt.textContent === correct) opt.classList.add("correct");
   });
-
   if (selected === correct) {
     totalCorrect++;
     updateStatsDisplay();
@@ -3469,24 +2667,18 @@ function nextQuiz() {
   renderQuiz();
 }
 
-// Tombol Lihat Jawaban
 function showAnswer() {
   if (quizLocked) return;
   const options = document.querySelectorAll(".quiz-option");
   const current = currentQuestions[currentIndex];
   quizLocked = true;
-
   options.forEach(opt => {
     opt.classList.add("disabled");
-    if (opt.textContent === current.indonesia) {
-      opt.classList.add("correct");
-    }
+    if (opt.textContent === current.indonesia) opt.classList.add("correct");
   });
-  // Tidak menambah benar/salah, hanya tampilkan jawaban
   setTimeout(() => nextQuiz(), 1500);
 }
 
-// Tombol Lewati
 function skipQuiz() {
   if (quizLocked) return;
   quizLocked = true;
